@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    >
+
+    <ImageView
+        android:layout_width="197dp"
+        android:layout_height="131dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        app:srcCompat="@mipmap/ic_launcher_round" />
+
+    <EditText
+        android:id="@+id/register_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textCursorDrawable="@color/colorPrimaryDark"
+        android:layout_marginTop="206dp"
+        android:ems="10"
+        android:hint="@string/email_hintt"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_email"
+        app:passwordToggleContentDescription="@string/description"
+        app:passwordToggleDrawable="@drawable/ic_remove_red_eye_black_24dp"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/colorPrimary">
+
+        <EditText
+            android:id="@+id/register_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/register_email"
+            android:textCursorDrawable="@color/colorPrimaryDark"
+            android:layout_marginTop="10dp"
+            android:autofillHints="Password"
+            android:ems="10"
+            android:hint="@string/pass_hintt"
+            android:inputType="textPassword" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="339dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/signin_hintt"
+        android:textColor="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/login_reg_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_forget"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/create_a_new_account"
+        android:textColor="@color/colorAccent" />
+    <Button
+        android:id="@+id/login_forget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login_btn"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/forgot_your_password"
+        android:textColor="@color/colorAccent" />
+
+    <ProgressBar
+        android:id="@+id/loginProgress1"
+        android:layout_width="42dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="242dp"
+        android:outlineAmbientShadowColor="@color/colorPrimaryDark"
+        android:outlineSpotShadowColor="@color/colorPrimaryDark"
+        android:visibility="gone"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+</RelativeLayout>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminBroadcastMessage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorAccent"
+                    android:minHeight="@dimen/list_item_height_small"
+                    android:orientation="horizontal"
+                    android:paddingLeft="@dimen/list_item_padding_left"
+                    android:paddingRight="@dimen/list_item_padding_right">
+
+                    <TextView
+                        style="?android:textAppearanceSmall"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="16dp"
+                        android:ellipsize="end"
+                        android:text="Broadcast Message"
+                        android:textAllCaps="true"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@color/colorAccent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="224dp"
+                        android:baselineAligned="true"
+                        android:minHeight="@dimen/list_item_height_small"
+                        android:orientation="horizontal"
+                        android:paddingLeft="@dimen/list_item_padding_left"
+                        android:paddingTop="12dp"
+                        android:paddingRight="@dimen/list_item_padding_right">
+
+                        <TextView
+                            style="?android:textAppearanceSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="16dp"
+                            android:ellipsize="end"
+                            android:text="Reminder"
+                            android:textAllCaps="true"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/etUpdateReminder"
+                            style="?android:textAppearanceMedium"
+                            android:layout_width="227dp"
+                            android:layout_height="182dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="?android:attr/listDivider" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="266dp"
+                        android:baselineAligned="true"
+                        android:minHeight="@dimen/list_item_height_small"
+                        android:orientation="horizontal"
+                        android:paddingLeft="@dimen/list_item_padding_left"
+                        android:paddingTop="12dp"
+                        android:paddingRight="@dimen/list_item_padding_right">
+
+                        <TextView
+                            style="?android:textAppearanceSmall"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="16dp"
+                            android:ellipsize="end"
+                            android:text="Broadcast\nMessage"
+                            android:textAllCaps="true"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/etUpdateBroadcastMessage"
+                            style="?android:textAppearanceMedium"
+                            android:layout_width="236dp"
+                            android:layout_height="220dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/btnUpdateBroadcast"
+                        android:layout_width="300dp"
+                        android:layout_height="50dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="20dp"
+                        android:textColor="@color/colorAccent"
+                        android:background="@color/colorPrimaryDark"
+                        android:elevation="10dp"
+                        android:text="Update" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="92dp"
+        android:baselineAligned="true"
+        android:minHeight="@dimen/list_item_height_small"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/list_item_padding_left"
+        android:paddingLeft="@dimen/list_item_padding_left"
+        android:paddingTop="12dp"
+        android:paddingEnd="@dimen/list_item_padding_right"
+        android:paddingRight="@dimen/list_item_padding_right"
+        android:paddingBottom="12dp">
+
+        <TextView
+            style="?android:textAppearanceSmall"
+            android:layout_width="85dp"
+            android:layout_height="29dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:ellipsize="end"
+            android:text="@string/email"
+
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/StudentEmail"
+            style="?android:textAppearanceMedium"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:baselineAligned="true"
+        android:minHeight="@dimen/list_item_height_small"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/list_item_padding_left"
+        android:paddingLeft="@dimen/list_item_padding_left"
+        android:paddingTop="12dp"
+        android:paddingEnd="@dimen/list_item_padding_right"
+        android:paddingRight="@dimen/list_item_padding_right"
+        android:paddingBottom="12dp">
+
+        <TextView
+            style="?android:textAppearanceSmall"
+            android:layout_width="85dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:ellipsize="end"
+            android:text="Name:"
+
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/StudentName"
+            style="?android:textAppearanceMedium"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="169dp"
+        android:baselineAligned="true"
+        android:minHeight="@dimen/list_item_height_small"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/list_item_padding_left"
+        android:paddingLeft="@dimen/list_item_padding_left"
+        android:paddingTop="12dp"
+        android:paddingEnd="@dimen/list_item_padding_right"
+        android:paddingRight="@dimen/list_item_padding_right"
+        android:paddingBottom="12dp">
+
+        <TextView
+            style="?android:textAppearanceSmall"
+            android:layout_width="85dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:ellipsize="end"
+            android:text="Mobile:"
+
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/StudentMobile"
+            style="?android:textAppearanceMedium"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="251dp"
+        android:baselineAligned="true"
+        android:minHeight="@dimen/list_item_height_small"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/list_item_padding_left"
+        android:paddingLeft="@dimen/list_item_padding_left"
+        android:paddingTop="12dp"
+        android:paddingEnd="@dimen/list_item_padding_right"
+        android:paddingRight="@dimen/list_item_padding_right"
+        android:paddingBottom="12dp">
+
+        <TextView
+            style="?android:textAppearanceSmall"
+            android:layout_width="85dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:ellipsize="end"
+            android:text="SAPID:"
+
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/StudentSAPID"
+            style="?android:textAppearanceMedium"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="326dp"
+        android:baselineAligned="true"
+        android:minHeight="@dimen/list_item_height_small"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/list_item_padding_left"
+        android:paddingLeft="@dimen/list_item_padding_left"
+        android:paddingTop="12dp"
+        android:paddingEnd="@dimen/list_item_padding_right"
+        android:paddingRight="@dimen/list_item_padding_right"
+        android:paddingBottom="12dp">
+
+        <TextView
+            style="?android:textAppearanceSmall"
+            android:layout_width="85dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:ellipsize="end"
+
+            android:text="DOB:"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/StudentDOB"
+            style="?android:textAppearanceMedium"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="402dp"
+        android:baselineAligned="true"
+        android:minHeight="@dimen/list_item_height_small"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/list_item_padding_left"
+        android:paddingLeft="@dimen/list_item_padding_left"
+        android:paddingTop="12dp"
+        android:paddingEnd="@dimen/list_item_padding_right"
+        android:paddingRight="@dimen/list_item_padding_right"
+        android:paddingBottom="12dp">
+
+        <TextView
+            style="?android:textAppearanceSmall"
+            android:layout_width="85dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:ellipsize="end"
+
+            android:text="Gender:"
+            android:textAllCaps="true"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/StudentGender"
+            style="?android:textAppearanceMedium"
+            android:layout_width="0dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="1"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/EditProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:text="Edit Profile"
+        android:textColor="@color/colorAccent"
+        tools:text="@string/Edit_profile" />
+
+
+</RelativeLayout>

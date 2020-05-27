@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "4847994659",
+    "firebase_url": "https://railwayconcession-7a9e9.firebaseio.com",
+    "project_id": "railwayconcession-7a9e9",
+    "storage_bucket": "railwayconcession-7a9e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:4847994659:android:97846453cb477d44",
+        "android_client_info": {
+          "package_name": "com.railwayconcession.http.railwayconcession"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "4847994659-ujgqdukcc5sh5j24qdjt9oifq01fcas7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.railwayconcession.http.railwayconcession",
+            "certificate_hash": "60a217d12d0ffe71ca8820bb3bebbd92fed2d57c"
+          }
+        },
+        {
+          "client_id": "4847994659-s28ejq7ble6ndkfaeiu1cq290skudujf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlsSSdkvtCSldq7aJAYHKXHEasJxyIfFk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "4847994659-s28ejq7ble6ndkfaeiu1cq290skudujf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

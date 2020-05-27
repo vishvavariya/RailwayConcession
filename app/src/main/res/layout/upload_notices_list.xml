@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/ivUploadNoticesPicture"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/file_icon"
+            android:layout_weight="2"/>
+
+        <TextView
+            android:id="@+id/tvUploadFileName"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textSize="16sp"
+            android:text="File:"
+            android:fontFamily="@font/ml"
+            android:layout_weight="6"/>
+        <ImageView
+            android:id="@+id/ivUploadFileDone"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/progress"
+            android:layout_weight="2"/>
+    </LinearLayout>
+
+</RelativeLayout>
